@@ -14,6 +14,7 @@ data = [('James','Smith','M',3000),
   ('Robert','Williams','M',6200), 
 ]
 
+#My first changes in this folder
 columns = ["firstname","lastname","gender","salary"]
 df = spark.createDataFrame(data=data, schema = columns)
 df.show()
